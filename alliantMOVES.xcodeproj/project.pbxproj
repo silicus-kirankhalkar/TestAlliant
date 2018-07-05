@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -259,11 +259,12 @@
 				TargetAttributes = {
 					527D362720EC937C0018574D = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = 527D362320EC937C0018574D /* Build configuration list for PBXProject "alliantMOVES" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -506,10 +507,7 @@
 				DEVELOPMENT_TEAM = DV2A85LJJL;
 				INFOPLIST_FILE = "$(SRCROOT)/alliantMOVES/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allaintgroup.alliantMoves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "45b2198b-30cd-4598-8b15-ceb44b6eaaa1";
@@ -527,10 +525,7 @@
 				DEVELOPMENT_TEAM = DV2A85LJJL;
 				INFOPLIST_FILE = "$(SRCROOT)/alliantMOVES/Application/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allaintgroup.alliantMoves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "45b2198b-30cd-4598-8b15-ceb44b6eaaa1";
